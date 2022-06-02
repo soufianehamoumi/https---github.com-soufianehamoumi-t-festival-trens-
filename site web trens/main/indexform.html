@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="styleform.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"        
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+
+
+</head>
+
+
+
+<body>
+
+    <section>
+
+        <form class="row g-3" action="https://sheetdb.io/api/v1/o5nyjryjwkyip" method="post" id="sheetdb-form">
+
+            <div class="col-md-6">
+
+                <label for="inputEmail4" class="form-label">Voornaam</label>
+
+                <input name="data[Voornaam]" type="text" class="form-control" placeholder="Voornaam"
+                    aria-label="First name">
+
+            </div>
+
+            <div class="col-md-6">
+
+                <label for="inputEmail4" class="form-label">Naam</label>
+
+                <input name="data[Naam]" type="text" class="form-control" placeholder="Naam" aria-label="Last name">
+
+            </div>
+
+            <div class="col-md-6">
+
+                <label for="inputEmail4" class="form-label">Email</label>
+
+                <input name="data[Email]" type="email" class="form-control" id="inputEmail4">
+
+            </div>
+
+            <div class="col-md-6">
+
+                <label for="inputPassword4" class="form-label">Geboortedatum</label>
+
+                <input name="data[Geboortedatum]" type="date" class="form-control" id="inputPassword4">
+
+            </div>
+
+            <div class="col-12">
+
+                <label for="inputAddress" class="form-label">Adres</label>
+
+                <input name="data[Adres]" type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+
+            </div>
+
+
+            <div class="col-md-6">
+
+                <button type="submit" class="btn btn-primary">Sign in</button>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <a href="index.html" type="submit" class="btn btn-primary">return</a>
+
+            </div>
+
+        </form>
+
+    </section>
+
+
+    <script>
+        var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(form.action, {
+                method: "POST",
+                body: new FormData(document.getElementById("sheetdb-form")),
+            }).then(
+                response => response.json()
+            ).then((html) => {
+                window.location.href = "paypal.checkout/paypal/paypal.checkout/paypal.checkout.html";
+            });
+        });
+    </script>
+
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+.firstPage {
+    border-top: solid 16px tomato;
+    height: 95vh;
+    width: 100%;
+    background-color: rgb(254, 122, 99);
+    border-bottom: solid 16px tomato;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.homeTab {
+    height: 90px;
+    width: 100%;
+    background-color: rgba(240, 200, 20, 0.534);
+    display: flex;
+    justify-content: center;
+
+}
+
+.Homebut {
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Homebut a {
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(254, 122, 99);
+    ;
+
+}
+
+.Homebut a:hover {
+    color: black;
+
+}
+
+
+
+.fotos {
+
+    height: 250px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foto7 {
+    height: 33%;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fotos img {
+    background-size: cover;
+    width: 70%;
+    height: 70%;
+
+}
+
+.foto8 {
+    height: 33%;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto9 {
+    height: 33%;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

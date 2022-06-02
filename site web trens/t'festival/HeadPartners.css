@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+
+
+.homeTab {
+    height: 90px;
+    width: 100%;
+    background-color: rgba(240, 200, 20, 0.534);
+    display: flex;
+    justify-content: center;
+
+}
+
+.Homebut {
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Homebut a {
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(254, 122, 99);
+    ;
+
+}
+
+.Homebut a:hover {
+    color: black;
+
+}
+
+.firstPage {
+    border-top: solid 16px tomato;
+    height: 81vh;
+    width: 100%;
+    background-color: rgb(254, 122, 99);
+    border-bottom: solid 16px tomato;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+.fotos {
+
+    height: 150px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.foto1 {
+    height: 48%;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fotos img {
+    background-size: cover;
+    width: 70%;
+    height: 70%;
+
+}
+
+.foto2 {
+    height: 48%;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto3 {
+    height: 48%;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foto4 {
+    height: 48%;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto5 {
+    height: 48%;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto6 {
+    height: 48%;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

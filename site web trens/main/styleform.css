@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+
+
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.685);
+    color: white;
+
+}
+
+form {
+    width: 55%;
+}
